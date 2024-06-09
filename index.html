@@ -9,7 +9,25 @@
 <body>
 
     <h1>Rock Paper Scissors Game</h1>
-  
+    <br>
+    <div class="choices">
+        <button onclick="playGame('rock')">🪨🪨</button>
+        <button onclick="playGame('paper')">📜📜</button>
+        <button onclick="playGame('scissors')">✂️✂️</button>
+    </div>
+<br>
+    <div id="humanDisplay">Human: </div><br>
+    <div id="computerDisplay">Computer: </div><br>
+    <div id="resultDisplay">Results: </div><br>
+
+    <div class="scoreDisplay">Human: 
+        <span id="humanScoreDisplay">0</span>
+    </div>
+
+    <div class="scoreDisplay">Computer: 
+        <span id="computerScoreDisplay">0</span>
+    </div>
+
     <script src="javascript.js"></script>
 </body>
 </html>
